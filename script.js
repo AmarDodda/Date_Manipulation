@@ -34,7 +34,7 @@ function displaydata() {
 
     // Display results in HTML
     resultDiv.innerHTML = `
-            <p>Given input date is ${input}</p>
+            <p>Given input date is ${inputdate}</p>
             <p>Year: ${yeardiff}</p>
             <p>Month: ${monthdiff}</p>
             <p>Day: ${daydiff}</p>
@@ -43,6 +43,7 @@ function displaydata() {
             <p>Second: ${secdiff}</p>
             <p>Millisecond: ${millisecdiff}</p>
         `;
+        
   } else {
     resultDiv.innerHTML = "Invalid date selected";
   }
